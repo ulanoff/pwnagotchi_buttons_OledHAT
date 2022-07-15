@@ -1,17 +1,23 @@
 # Description
 Scripts for buttons of Waveshare Oled HAT (any with joystick and 3 buttons)
 I'm very bad in English:(
-## POWRS.py - Shutdown and reboot by key1 (PIN 21). 
+## POWRS.py 
+### Shutdown and reboot by key1 (PIN 21). 
 Pressing key1 leads to rebooting system. Pressing key1 for more then 1.5 seconds leads to shutdown.
-## poweroffgpio21.py - Shutdown system by clicking key1. 
+## poweroffgpio21.py 
+### Shutdown system by clicking key1. 
 You can change GPIO_PIN = 21 to another one.
-## rebootauto.py - restarts pwnagotchi in auto mode. 
+## rebootauto.py 
+### Restarts pwnagotchi in auto mode. 
 GPIO_PIN = 20 (key2).
-## reboomanual.py - restarts pwnagotchi in manual mode.
+## reboomanual.py
+### Restarts pwnagotchi in manual mode.
 GPIO_PIN = 16 (key3).
-## detrue - sets deauth mode to true (check if this mode is legal in ur country).
+## detrue.py
+### Sets deauth mode to true (check if this mode is legal in ur country).
 Finds deauth-false string in config.toml, changes it and restart pwnagotchu.
-## defalse - sets deauth mode to false (100% legal)
+## defalse.py 
+### Sets deauth mode to false (100% legal)
 Finds string with enabled deauth mode and changes it to false, then restarts pwnagotchi.
 # Installing scripts. 
 1. Put them wherever u want. I recommend to put them in -> /home/pi/ dir.
